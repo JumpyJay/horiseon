@@ -1,0 +1,8 @@
+#root {
+  padding: 0; /* or as needed */
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
