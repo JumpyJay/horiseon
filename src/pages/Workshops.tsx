@@ -10,7 +10,6 @@ import {
   CheckCircle,
   Star,
 } from "lucide-react";
-import { Link } from "react-router-dom";
 
 export default function WorkshopsPage() {
   const [activeTab, setActiveTab] = useState<"upcoming" | "series" | "past">(

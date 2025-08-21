@@ -12,7 +12,7 @@ const HomePage = () => {
                 Community Engagement
               </div>
               <h1 className="text-4xl font-bold text-gray-900">
-                Connecting Communities Through River Conservation
+                Connecting Communities Through River Reimagination
               </h1>
               <p className="text-gray-600 max-w-xl">
                 Our workshops aims to reimagine, explore and celebrate our hcm
