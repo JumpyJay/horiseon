@@ -108,3 +108,44 @@ To learn more about Next.js and Docker:
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Contributing
+
+We welcome contributions! Please follow these guidelines:
+
+### Branch Strategy
+
+1. **Create or switch to a ui feature branch:**
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   or
+   git checkout feature/ui
+   ```
+
+2. **Make your changes** and commit:
+
+   ```bash
+   git add .
+   git commit -m "feat: describe your changes"
+   ```
+
+3. **Push your branch:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+### Pull Request Process
+
+1. Create a Pull Request from your feature branch to `dev`
+2. Ensure all tests pass and code is properly formatted
+3. Request review from team members
+4. Once approved, merge the PR into `dev`
+5. Delete the feature branch after merging
+
+### Code Standards
+
+- Follow the project's TypeScript configuration
+- Ensure responsive design for all components
+- Test changes in mobile viewports
+- Maintain accessibility standards (WCAG 2.1)
