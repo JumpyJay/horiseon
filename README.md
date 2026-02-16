@@ -141,7 +141,8 @@ We welcome contributions! Please follow these guidelines:
 2. Ensure all tests pass and code is properly formatted
 3. Request review from team members
 4. Once approved, merge the PR into `dev`
-5. Delete the feature branch after merging
+
+> ⚠️ **Warning:** Do not create pull requests directly into `main`. All PRs should target the `dev` branch. 5. Delete the feature branch after merging
 
 ### Code Standards
 
