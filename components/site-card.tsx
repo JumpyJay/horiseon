@@ -28,7 +28,7 @@ export function SiteCard({ site, index }: SiteCardProps) {
               />
             </div>
             <div className="absolute left-4 top-4">
-              <span className="font-serif text-5xl text-background/80 md:text-6xl">
+              <span className="font-sans font-medium text-5xl text-background/80 md:text-6xl">
                 {site.number}
               </span>
             </div>
@@ -39,10 +39,10 @@ export function SiteCard({ site, index }: SiteCardProps) {
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
               {site.location}
             </p>
-            <h3 className="font-serif text-3xl text-foreground md:text-4xl">
+            <h3 className="font-sans font-medium text-3xl text-foreground md:text-4xl">
               {site.name}
             </h3>
-            <p className="font-serif text-lg italic text-primary">
+            <p className="font-sans font-medium text-lg italic text-primary">
               {site.subtitle}
             </p>
             <p className="text-sm leading-relaxed text-muted-foreground">
