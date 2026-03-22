@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/sites/riverbank-gardens", label: "01" },
-  { href: "/sites/floating-wetlands", label: "02" },
+  { href: "/sites/canvas-quay", label: "01" },
+  { href: "/sites/solar-wharf", label: "02" },
   { href: "/sites/community-promenade", label: "03" },
   { href: "/sites/mangrove-sanctuary", label: "04" },
   { href: "/process", label: "Process" },
@@ -23,7 +23,7 @@ export function ExhibitNav() {
       <div className="flex items-center justify-between px-6 py-5 md:px-10">
         <Link
           href="/"
-          className="font-serif text-lg tracking-wide text-foreground"
+          className="font-sans font-medium text-lg tracking-wide text-foreground"
         >
           Reimagined Rivers
         </Link>
@@ -83,7 +83,7 @@ export function ExhibitNav() {
             href={link.href}
             onClick={() => setMenuOpen(false)}
             className={cn(
-              "font-serif text-3xl transition-colors hover:text-primary",
+              "font-sans font-medium text-3xl transition-colors hover:text-primary",
               pathname === link.href ? "text-primary" : "text-foreground",
             )}
           >
