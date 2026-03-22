@@ -29,7 +29,7 @@ export function HomeHero() {
           Exhibit Companion
         </p>
         <h1
-          className={`font-serif text-5xl leading-tight text-background md:text-7xl lg:text-8xl transition-all duration-1000 delay-200 ${loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
+          className={`font-sans font-medium text-5xl leading-tight text-background md:text-7xl lg:text-8xl transition-all duration-1000 delay-200 ${loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
         >
           <span className="text-balance">Reimagined</span>
           <br />
