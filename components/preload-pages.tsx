@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 const pagesToPreload = [
-  "/sites/riverbank-gardens",
-  "/sites/floating-wetlands",
+  "/sites/canvas-quay",
+  "/sites/solar-wharf",
   "/sites/community-promenade",
   "/sites/mangrove-sanctuary",
   "/process",

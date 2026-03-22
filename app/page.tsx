@@ -22,7 +22,7 @@ export default function HomePage() {
             </p>
           </FadeIn>
           <FadeIn delay={100}>
-            <h2 className="font-serif text-3xl leading-snug text-foreground md:text-5xl">
+            <h2 className="font-sans font-medium text-3xl leading-snug text-foreground md:text-5xl">
               <span className="text-balance">
                 Four sites along the Saigon River, reimagined through the
                 collective vision of Ho Chi Minh City&apos;s students.
@@ -75,7 +75,7 @@ export default function HomePage() {
             </p>
           </FadeIn>
           <FadeIn delay={100}>
-            <h2 className="font-serif text-3xl text-primary-foreground md:text-5xl">
+            <h2 className="font-sans font-medium text-3xl text-primary-foreground md:text-5xl">
               <span className="text-balance">
                 See the workshops, the fieldwork, and the people who made this
                 exhibit possible.
@@ -113,7 +113,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl">
           <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="font-serif text-2xl text-foreground">
+              <p className="font-sans font-medium text-2xl text-foreground">
                 Reimagined Rivers
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
