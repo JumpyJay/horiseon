@@ -43,14 +43,14 @@ export function SiteDetail({ site }: SiteDetailProps) {
             <div
               className={`flex items-end gap-6 transition-all duration-700 delay-200 ${loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
             >
-              <span className="font-serif text-7xl text-background/20 md:text-9xl">
+              <span className="font-sans font-medium text-7xl text-background/20 md:text-9xl">
                 {site.number}
               </span>
               <div className="pb-2">
-                <h1 className="font-serif text-4xl text-background md:text-6xl">
+                <h1 className="font-sans font-medium text-4xl text-background md:text-6xl">
                   {site.name}
                 </h1>
-                <p className="mt-2 font-serif text-lg italic text-background/70 md:text-xl">
+                <p className="mt-2 font-sans font-medium text-lg italic text-background/70 md:text-xl">
                   {site.subtitle}
                 </p>
               </div>
@@ -80,7 +80,7 @@ export function SiteDetail({ site }: SiteDetailProps) {
             </div>
           </div>
           <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            Saigon River, District 2
+            Ho Chi Minh City, District 2
           </p>
         </div>
       </section>
@@ -94,7 +94,7 @@ export function SiteDetail({ site }: SiteDetailProps) {
             </p>
           </FadeIn>
           <FadeIn delay={100}>
-            <p className="font-serif text-2xl leading-relaxed text-foreground md:text-3xl">
+            <p className="font-sans font-medium text-2xl leading-relaxed text-foreground md:text-3xl">
               {site.description}
             </p>
           </FadeIn>
@@ -108,22 +108,25 @@ export function SiteDetail({ site }: SiteDetailProps) {
       </section>
 
       {/* Features */}
-      <section className="bg-card px-6 py-24 md:px-10 lg:py-32">
+      <section className="bg-card px-6 pt-12 pb-24 md:px-10 lg:py-32">
         <div className="mx-auto max-w-6xl">
           <FadeIn>
             <p className="mb-12 text-xs uppercase tracking-[0.4em] text-muted-foreground">
               Key Features
             </p>
           </FadeIn>
-          <div className="grid gap-px md:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {site.features.map((feature, i) => (
-              <FadeIn key={feature} delay={i * 100}>
-                <div className="border-t border-border py-8 pr-8">
-                  <span className="font-mono text-xs text-muted-foreground">
+              <FadeIn key={feature.title} delay={i * 100} className="h-full">
+                <div className="group flex h-full flex-col border-t border-border pt-8 transition-colors hover:border-primary">
+                  <span className="font-mono text-xs text-muted-foreground transition-colors group-hover:text-primary">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <p className="mt-3 font-serif text-xl text-foreground">
-                    {feature}
+                  <h3 className="mt-4 font-sans text-xl font-medium text-foreground">
+                    {feature.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                    {feature.description}
                   </p>
                 </div>
               </FadeIn>
@@ -132,17 +135,17 @@ export function SiteDetail({ site }: SiteDetailProps) {
         </div>
       </section>
 
-      {/* Student Contribution */}
+      {/* Place holder for inner monologue of character */}
       <section className="px-6 py-24 md:px-10 lg:py-32">
         <div className="mx-auto max-w-4xl">
           <FadeIn>
             <p className="mb-6 text-xs uppercase tracking-[0.4em] text-muted-foreground">
-              Student Contribution
+              Inner Monologue
             </p>
           </FadeIn>
           <FadeIn delay={100}>
-            <p className="font-serif text-2xl leading-relaxed text-foreground md:text-3xl">
-              {site.studentContribution}
+            <p className="font-sans font-medium text-2xl leading-relaxed text-foreground md:text-3xl">
+              "This place has so much potential..."
             </p>
           </FadeIn>
         </div>
@@ -158,7 +161,7 @@ export function SiteDetail({ site }: SiteDetailProps) {
             <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
               Previous Site
             </p>
-            <p className="font-serif text-2xl text-foreground transition-colors group-hover:text-primary md:text-3xl">
+            <p className="font-sans font-medium text-2xl text-foreground transition-colors group-hover:text-primary md:text-3xl">
               {prevSite.name}
             </p>
           </Link>
@@ -169,7 +172,7 @@ export function SiteDetail({ site }: SiteDetailProps) {
             <p className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
               Next Site
             </p>
-            <p className="font-serif text-2xl text-foreground transition-colors group-hover:text-primary md:text-3xl">
+            <p className="font-sans font-medium text-2xl text-foreground transition-colors group-hover:text-primary md:text-3xl">
               {nextSite.name}
             </p>
           </Link>
