@@ -22,7 +22,7 @@ export function MobileOverlay() {
           Mobile Experience Recommended
         </h2>
         <p className="leading-relaxed text-muted-foreground">
-          This digital companion was designed specifically as an interactive guide for exhibition attendees using their mobile devices. 
+          This digital companion was designed specifically as an interactive guide for exhibition attendees using their mobile devices.
           <br /><br />
           Please adjust your browser window size or open this site on a mobile device for the intended experience.
         </p>
