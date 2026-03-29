@@ -21,6 +21,27 @@ export default function ProcessPage() {
             and art. These sessions were designed to foster interdisciplinary
             collaboration and generate ideas for reimagining the Saigon River.
           </p>
+          <a href="/workshop" className="group inline-block mt-4">
+            <div className="mt-2 flex items-center gap-2 text-sm text-primary transition-all group-hover:gap-3">
+              <span className="uppercase tracking-widest">View More</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                className="transition-transform group-hover:translate-x-1"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 10H16M16 10L11 5M16 10L11 15"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </a>
         </section>
 
         <section>
