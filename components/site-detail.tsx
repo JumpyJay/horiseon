@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import type { SiteData } from "@/lib/sites-data";
 import { sites } from "@/lib/sites-data";
 import { FadeIn } from "./fade-in";
+import { InnerMonologue } from "./inner-monologue";
 
 interface SiteDetailProps {
   site: SiteData;
@@ -135,21 +136,21 @@ export function SiteDetail({ site }: SiteDetailProps) {
         </div>
       </section>
 
-      {/* Place holder for inner monologue of character */}
-      <section className="px-6 py-24 md:px-10 lg:py-32">
-        <div className="mx-auto max-w-4xl">
-          <FadeIn>
-            <p className="mb-6 text-xs uppercase tracking-[0.4em] text-muted-foreground">
-              Inner Monologue
-            </p>
-          </FadeIn>
-          <FadeIn delay={100}>
-            <p className="font-sans font-medium text-2xl leading-relaxed text-foreground md:text-3xl">
-              "This place has so much potential..."
-            </p>
-          </FadeIn>
-        </div>
-      </section>
+      {/* Inner Monologue */}
+      {site.monologue && (
+        <section className="px-6 py-24 md:px-10 lg:py-32">
+          <div className="mx-auto max-w-4xl">
+            <FadeIn>
+              <p className="mb-8 text-xs uppercase tracking-[0.4em] text-muted-foreground">
+                Inner Monologue
+              </p>
+            </FadeIn>
+            <FadeIn delay={100}>
+              <InnerMonologue monologue={site.monologue} />
+            </FadeIn>
+          </div>
+        </section>
+      )}
 
       {/* Navigation */}
       <section className="border-t border-border">
