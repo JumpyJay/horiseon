@@ -3,6 +3,12 @@ export interface SiteFeature {
   description: string;
 }
 
+export interface MonologueData {
+  characterName: string;
+  image: string;
+  text: string;
+}
+
 export interface SiteData {
   id: string;
   number: string;
@@ -14,6 +20,7 @@ export interface SiteData {
   coordinates: { lat: string; lng: string };
   image: string;
   features: SiteFeature[];
+  monologue?: MonologueData;
 }
 
 export const sites: SiteData[] = [
@@ -51,6 +58,11 @@ export const sites: SiteData[] = [
           "A covered wooden deck for group dance workshops. 100% of workshop fees are funneled into 'Saigon Blue' river-cleaning technology.",
       },
     ],
+    monologue: {
+      characterName: "Granny",
+      image: "/images/granny.JPG",
+      text: "I remember when this riverbank was just mud and forgotten dreams. Now I see my grandchildren painting on the walls, dancing where the cranes used to rust. This place finally feels like it belongs to us again.",
+    },
   },
   {
     id: "solar-wharf",
@@ -86,6 +98,11 @@ export const sites: SiteData[] = [
           "A transit-integrated pet park for commuters. Hosts seasonal events like 'Pet Commuter Marches' and community holiday parades.",
       },
     ],
+    monologue: {
+      characterName: "Mommy",
+      image: "/images/mommy.JPG",
+      text: "Every morning I rush between the Metro and the Waterbus, juggling bags and schedules. But here, the commute slows down just enough to breathe. My daughter feeds the fish from the Bread Drop while I sip coffee under the sunflower canopy. Five stolen minutes of peace.",
+    },
   },
   {
     id: "community-promenade",
@@ -121,6 +138,11 @@ export const sites: SiteData[] = [
           "Open, modular spaces designed to adapt to seasonal needs, from local craft markets to community performances.",
       },
     ],
+    monologue: {
+      characterName: "Unc",
+      image: "/images/unc.JPG",
+      text: "They told me the old wharf was finished, but look at it now. I do my tai chi on the top terrace at dawn, and by evening the whole neighbourhood is here, arguing over whose banh mi is best at the market stalls. This is what a riverfront should be.",
+    },
   },
   {
     id: "mangrove-sanctuary",

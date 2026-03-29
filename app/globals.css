@@ -125,3 +125,31 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes bubble-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes bubble-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  50% {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+  }
+}
+
+.animate-bubble-float {
+  animation: bubble-float 3.5s ease-in-out infinite, bubble-pulse 3.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-bubble-float {
+    animation: none;
+  }
+}
