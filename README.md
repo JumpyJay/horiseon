@@ -105,9 +105,8 @@ To learn more about Next.js and Docker:
 
 ## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The current app is deployed on aws, using S3 + Cloudfront.
+- The pipeline is triggered on update to `Main` (see .github/workflows/deploy.yml)
 
 ## Contributing
 
