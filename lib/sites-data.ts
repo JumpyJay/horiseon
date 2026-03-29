@@ -114,7 +114,7 @@ export const sites: SiteData[] = [
     longDescription:
       "The Boats on Saigon River offer a range of waterborne experiences that reflect the river's many roles in city life — from quiet canal exploration to daily cross-river commutes and leisurely evening cruises past the city's most iconic landmarks.",
     location: "Saigon River, Ho Chi Minh City",
-    coordinates: { lat: "10.7769", lng: "106.7009" },
+    coordinates: { lat: "11.1423", lng: "106.5079" },
     image: "/images/site-3.jpg",
     features: [
       {
