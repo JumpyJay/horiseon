@@ -139,41 +139,6 @@ export const sites: SiteData[] = [
       text: "They told me the old wharf was finished, but look at it now. I do my tai chi on the top terrace at dawn, and by evening the whole neighbourhood is here, arguing over whose banh mi is best at the market stalls. This is what a riverfront should be.",
     },
   },
-  {
-    id: "mangrove-sanctuary",
-    number: "04",
-    name: "Mangrove Sanctuary",
-    subtitle: "Restoring the river's living edge",
-    description:
-      "A tidal creek restoration reintroducing native mangrove forests to the Saigon River.",
-    longDescription:
-      "The Mangrove Sanctuary addresses the loss of habitat along the river. It features elevated timber walkways that wind through a newly planted forest, offering an immersive ecological experience.",
-    location: "Cat Lai Creek, District 2",
-    coordinates: { lat: "10.7750", lng: "106.7580" },
-    image: "/images/site-4.jpg",
-    features: [
-      {
-        title: "Mangrove Forest Restoration",
-        description:
-          "A scientific, phased restoration of native mangrove species to recover lost biodiversity and protect the riverbank from erosion.",
-      },
-      {
-        title: "Elevated Timber Walkways",
-        description:
-          "Winding, low-impact boardwalks that allow visitors to traverse the tidal wetlands without disturbing the recovering ecosystem.",
-      },
-      {
-        title: "Natural Art Installations",
-        description:
-          "Suspended sculptures crafted from coconut fiber and bamboo that draw attention to the beauty and fragility of the mangroves.",
-      },
-      {
-        title: "Biodiversity Monitoring",
-        description:
-          "Living laboratory stations that track the return of native fish and bird species, serving as an educational resource for students.",
-      },
-    ],
-  },
 ];
 
 export interface ProcessStep {
@@ -186,7 +151,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "Research & Discovery",
     description:
-      "Students from universities across Ho Chi Minh City spent weeks surveying the four sites along the Saigon River, documenting existing conditions, interviewing local communities, and studying the river's ecological and cultural history.",
+      "Students from universities across Ho Chi Minh City spent weeks surveying three sites along the Saigon River, documenting existing conditions, interviewing local communities, and studying the river's ecological and cultural history.",
     image: "/images/process-2.jpg",
   },
   {
