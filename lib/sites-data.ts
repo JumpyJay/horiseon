@@ -136,7 +136,7 @@ export const sites: SiteData[] = [
     monologue: {
       characterName: "Unc",
       image: "/images/unc.JPG",
-      text: "They told me the old wharf was finished, but look at it now. I do my tai chi on the top terrace at dawn, and by evening the whole neighbourhood is here, arguing over whose banh mi is best at the market stalls. This is what a riverfront should be.",
+      text: "I’ve been on this river all my life, but these boats make it feel new again. The Canal Explorer takes me to hidden corners of the city I never knew existed. The ferry is my daily lifeline across the river, and the dining cruise? It’s like a moving restaurant with the best view in town. The river isn’t just water — it’s the heartbeat of our city, and these boats let me feel that pulse every day.",
     },
   },
 ];
