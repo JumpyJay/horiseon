@@ -6,8 +6,7 @@ import { useRouter } from "next/navigation";
 const pagesToPreload = [
   "/sites/canvas-quay",
   "/sites/solar-wharf",
-  "/sites/community-promenade",
-  "/sites/mangrove-sanctuary",
+  "/sites/boats-on-saigon-river",
   "/process",
 ];
 
@@ -27,7 +26,6 @@ export function PreloadPages() {
       "/images/site-1.jpg",
       "/images/site-2.jpg",
       "/images/site-3.jpg",
-      "/images/site-4.jpg",
       "/images/hero.jpg",
       "/images/process-1.jpg",
       "/images/process-2.jpg",

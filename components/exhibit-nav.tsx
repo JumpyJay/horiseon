@@ -9,8 +9,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/sites/canvas-quay", label: "01" },
   { href: "/sites/solar-wharf", label: "02" },
-  { href: "/sites/community-promenade", label: "03" },
-  { href: "/sites/mangrove-sanctuary", label: "04" },
+  { href: "/sites/boats-on-saigon-river", label: "03" },
   { href: "/process", label: "Process" },
 ];
 

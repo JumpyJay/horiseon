@@ -38,7 +38,7 @@ export function HomeHero() {
         <p
           className={`mt-6 max-w-md text-sm leading-relaxed text-background/80 md:text-base transition-all duration-1000 delay-500 ${loaded ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
         >
-          Four landscapes along the Saigon River, reimagined through the vision
+          Three landscapes along the Saigon River, reimagined through the vision
           of Ho Chi Minh City&apos;s students.
         </p>
         <div
