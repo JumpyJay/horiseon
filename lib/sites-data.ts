@@ -134,7 +134,7 @@ export const sites: SiteData[] = [
       },
     ],
     monologue: {
-      characterName: "Unc",
+      characterName: "Dad",
       image: "/images/unc.JPG",
       text: "I’ve been on this river all my life, but these boats make it feel new again. The Canal Explorer takes me to hidden corners of the city I never knew existed. The ferry is my daily lifeline across the river, and the dining cruise? It’s like a moving restaurant with the best view in town. The river isn’t just water — it’s the heartbeat of our city, and these boats let me feel that pulse every day.",
     },
