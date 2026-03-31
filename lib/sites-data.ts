@@ -105,79 +105,39 @@ export const sites: SiteData[] = [
     },
   },
   {
-    id: "community-promenade",
+    id: "boats-on-saigon-river",
     number: "03",
-    name: "Community Promenade",
-    subtitle: "A gathering place on the water's edge",
+    name: "Boats on Saigon River",
+    subtitle: "Navigating the city's living waterway",
     description:
-      "A terraced waterfront promenade transforming an industrial edge into a vibrant public space.",
+      "A fleet of vessels connecting communities, cultures, and landscapes across the Saigon River and its winding canal network.",
     longDescription:
-      "The Community Promenade reimagines an abandoned industrial wharf as a multi-level public space. The design emerged from community workshops to accommodate everything from morning tai chi to evening food markets.",
-    location: "An Phu Ward Waterfront, District 2",
-    coordinates: { lat: "10.7956", lng: "106.7480" },
+      "The Boats on Saigon River offer a range of waterborne experiences that reflect the river's many roles in city life — from quiet canal exploration to daily cross-river commutes and leisurely evening cruises past the city's most iconic landmarks.",
+    location: "Saigon River, Ho Chi Minh City",
+    coordinates: { lat: "11.1423", lng: "106.5079" },
     image: "/images/site-3.jpg",
     features: [
       {
-        title: "Terraced Gathering Spaces",
+        title: "Rồng Xanh — Canal Explorer Boat",
         description:
-          "Multi-level platforms designed for diverse community activities, cascading naturally down to the Saigon River's edge.",
+          "A nimble, open-air fishing vessel designed to navigate both the narrow inner canals and the open Saigon River, comfortably accommodating 10 to 15 passengers. Electrically powered and lightweight, its eco-conscious design makes it the ideal craft for slow-paced cultural and ecological discovery tours along the waterways.",
       },
       {
-        title: "Bamboo Canopy Structures",
+        title: "Phà Sài Gòn — Cross-River Ferry",
         description:
-          "Student-fabricated shade structures using traditional Vietnamese joinery, providing passive cooling through river breezes.",
+          "A high-capacity ferry built for the rhythms of daily city life, carrying up to 150 to 200 passengers alongside their motorcycles. Operating at high frequency between Districts 1 and 2, it offers air-conditioned seating, generous standing space on the open deck, and a commuting experience optimised for comfort at scale.",
       },
       {
-        title: "Productive Urban Gardens",
+        title: "Ánh Trăng — River Dining Cruise",
         description:
-          "Community-selected fruit and herb gardens that create a beautiful, edible landscape for local residents and visitors.",
-      },
-      {
-        title: "Flexible Event Areas",
-        description:
-          "Open, modular spaces designed to adapt to seasonal needs, from local craft markets to community performances.",
+          "A leisurely cruise vessel designed for relaxation and cultural immersion, following fixed routes past the river's most celebrated landmarks. Passengers can dine on board or settle into the on-deck café for a selection of local cuisines, curating their own pace and experience as the city's skyline drifts slowly past.",
       },
     ],
     monologue: {
-      characterName: "Unc",
+      characterName: "Dad",
       image: "/images/unc.JPG",
-      text: "They told me the old wharf was finished, but look at it now. I do my tai chi on the top terrace at dawn, and by evening the whole neighbourhood is here, arguing over whose banh mi is best at the market stalls. This is what a riverfront should be.",
+      text: "I’ve been on this river all my life, but these boats make it feel new again. The Canal Explorer takes me to hidden corners of the city I never knew existed. The ferry is my daily lifeline across the river, and the dining cruise? It’s like a moving restaurant with the best view in town. The river isn’t just water — it’s the heartbeat of our city, and these boats let me feel that pulse every day.",
     },
-  },
-  {
-    id: "mangrove-sanctuary",
-    number: "04",
-    name: "Mangrove Sanctuary",
-    subtitle: "Restoring the river's living edge",
-    description:
-      "A tidal creek restoration reintroducing native mangrove forests to the Saigon River.",
-    longDescription:
-      "The Mangrove Sanctuary addresses the loss of habitat along the river. It features elevated timber walkways that wind through a newly planted forest, offering an immersive ecological experience.",
-    location: "Cat Lai Creek, District 2",
-    coordinates: { lat: "10.7750", lng: "106.7580" },
-    image: "/images/site-4.jpg",
-    features: [
-      {
-        title: "Mangrove Forest Restoration",
-        description:
-          "A scientific, phased restoration of native mangrove species to recover lost biodiversity and protect the riverbank from erosion.",
-      },
-      {
-        title: "Elevated Timber Walkways",
-        description:
-          "Winding, low-impact boardwalks that allow visitors to traverse the tidal wetlands without disturbing the recovering ecosystem.",
-      },
-      {
-        title: "Natural Art Installations",
-        description:
-          "Suspended sculptures crafted from coconut fiber and bamboo that draw attention to the beauty and fragility of the mangroves.",
-      },
-      {
-        title: "Biodiversity Monitoring",
-        description:
-          "Living laboratory stations that track the return of native fish and bird species, serving as an educational resource for students.",
-      },
-    ],
   },
 ];
 
@@ -191,7 +151,7 @@ export const processSteps: ProcessStep[] = [
   {
     title: "Research & Discovery",
     description:
-      "Students from universities across Ho Chi Minh City spent weeks surveying the four sites along the Saigon River, documenting existing conditions, interviewing local communities, and studying the river's ecological and cultural history.",
+      "Students from universities across Ho Chi Minh City spent weeks surveying three sites along the Saigon River, documenting existing conditions, interviewing local communities, and studying the river's ecological and cultural history.",
     image: "/images/process-2.jpg",
   },
   {

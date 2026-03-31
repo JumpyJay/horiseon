@@ -39,7 +39,7 @@ export function SiteDetail({ site }: SiteDetailProps) {
             <p
               className={`mb-3 text-xs uppercase tracking-[0.4em] text-background/60 transition-all duration-700 ${loaded ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
             >
-              Site {site.number} of 04
+              Site {site.number} of {String(sites.length).padStart(2, "0")}
             </p>
             <div
               className={`flex items-end gap-6 transition-all duration-700 delay-200 ${loaded ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}

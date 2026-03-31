@@ -24,7 +24,7 @@ export default function HomePage() {
           <FadeIn delay={100}>
             <h2 className="font-sans font-medium text-3xl leading-snug text-foreground md:text-5xl">
               <span className="text-balance">
-                Four sites along the Saigon River, reimagined through the
+                Three sites along the Saigon River, reimagined through the
                 collective vision of Ho Chi Minh City&apos;s students.
               </span>
             </h2>
